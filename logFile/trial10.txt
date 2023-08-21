@@ -1,0 +1,118 @@
+Epoch 1/25
+2023-05-24 18:18:24.315385: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - ETA: 0s - loss: 2.1050 - accuracy: 0.2044
+2023-05-24 18:19:23.704054: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - 60s 799ms/step - loss: 2.1050 - accuracy: 0.2044 - val_loss: 1.5478 - val_accuracy: 0.4200
+Epoch 2/25
+74/74 [==============================] - 62s 829ms/step - loss: 1.6017 - accuracy: 0.4121 - val_loss: 1.3617 - val_accuracy: 0.4600
+Epoch 3/25
+74/74 [==============================] - 63s 847ms/step - loss: 1.4765 - accuracy: 0.4673 - val_loss: 1.3545 - val_accuracy: 0.4600
+Epoch 4/25
+74/74 [==============================] - 72s 966ms/step - loss: 1.3509 - accuracy: 0.5088 - val_loss: 1.1743 - val_accuracy: 0.5800
+Epoch 5/25
+74/74 [==============================] - 66s 890ms/step - loss: 1.2834 - accuracy: 0.5271 - val_loss: 1.2932 - val_accuracy: 0.5400
+Epoch 6/25
+74/74 [==============================] - 64s 861ms/step - loss: 1.1922 - accuracy: 0.5631 - val_loss: 1.2567 - val_accuracy: 0.5800
+Epoch 7/25
+74/74 [==============================] - 67s 905ms/step - loss: 1.1188 - accuracy: 0.6007 - val_loss: 1.1479 - val_accuracy: 0.6000
+Epoch 8/25
+74/74 [==============================] - 68s 916ms/step - loss: 1.0510 - accuracy: 0.6268 - val_loss: 1.0708 - val_accuracy: 0.6800
+Epoch 9/25
+74/74 [==============================] - 67s 898ms/step - loss: 0.9983 - accuracy: 0.6524 - val_loss: 1.2944 - val_accuracy: 0.5600
+Epoch 10/25
+74/74 [==============================] - 65s 880ms/step - loss: 0.9044 - accuracy: 0.6858 - val_loss: 1.2453 - val_accuracy: 0.6600
+Epoch 11/25
+74/74 [==============================] - 66s 892ms/step - loss: 0.8985 - accuracy: 0.6776 - val_loss: 1.1061 - val_accuracy: 0.5200
+Epoch 12/25
+74/74 [==============================] - 66s 886ms/step - loss: 0.7898 - accuracy: 0.7289 - val_loss: 0.9551 - val_accuracy: 0.6400
+Epoch 13/25
+74/74 [==============================] - 68s 908ms/step - loss: 0.7521 - accuracy: 0.7354 - val_loss: 1.1391 - val_accuracy: 0.6200
+Epoch 14/25
+74/74 [==============================] - 66s 893ms/step - loss: 0.6731 - accuracy: 0.7734 - val_loss: 1.2622 - val_accuracy: 0.6400
+Epoch 15/25
+74/74 [==============================] - 66s 884ms/step - loss: 0.6980 - accuracy: 0.7593 - val_loss: 1.0586 - val_accuracy: 0.6200
+Epoch 16/25
+74/74 [==============================] - 70s 939ms/step - loss: 0.6467 - accuracy: 0.7738 - val_loss: 1.3655 - val_accuracy: 0.5200
+Epoch 17/25
+74/74 [==============================] - 74s 999ms/step - loss: 0.6033 - accuracy: 0.7918 - val_loss: 1.0352 - val_accuracy: 0.6200
+Epoch 18/25
+74/74 [==============================] - 76s 1s/step - loss: 0.6083 - accuracy: 0.7956 - val_loss: 1.1934 - val_accuracy: 0.6200
+Epoch 19/25
+74/74 [==============================] - 73s 986ms/step - loss: 0.5801 - accuracy: 0.7986 - val_loss: 1.1922 - val_accuracy: 0.6600
+Epoch 20/25
+74/74 [==============================] - 74s 992ms/step - loss: 0.5584 - accuracy: 0.8110 - val_loss: 1.1270 - val_accuracy: 0.6200
+Epoch 21/25
+74/74 [==============================] - 72s 969ms/step - loss: 0.5042 - accuracy: 0.8226 - val_loss: 1.3034 - val_accuracy: 0.6000
+Epoch 22/25
+74/74 [==============================] - 71s 959ms/step - loss: 0.5094 - accuracy: 0.8234 - val_loss: 0.9526 - val_accuracy: 0.6600
+Epoch 23/25
+74/74 [==============================] - 72s 971ms/step - loss: 0.4815 - accuracy: 0.8388 - val_loss: 1.1638 - val_accuracy: 0.6400
+Epoch 24/25
+74/74 [==============================] - 71s 953ms/step - loss: 0.4997 - accuracy: 0.8311 - val_loss: 1.2077 - val_accuracy: 0.6200
+Epoch 25/25
+74/74 [==============================] - 70s 942ms/step - loss: 0.4432 - accuracy: 0.8431 - val_loss: 1.2046 - val_accuracy: 0.6400
+
+Found 2339 images belonging to 10 classes.
+Found 50 images belonging to 10 classes.
+Found 50 images belonging to 10 classes.
+Epoch 1/25
+2023-05-24 18:18:24.315385: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - ETA: 0s - loss: 2.1050 - accuracy: 0.2044
+2023-05-24 18:19:23.704054: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - 60s 799ms/step - loss: 2.1050 - accuracy: 0.2044 - val_loss: 1.5478 - val_accuracy: 0.4200
+Epoch 2/25
+74/74 [==============================] - 62s 829ms/step - loss: 1.6017 - accuracy: 0.4121 - val_loss: 1.3617 - val_accuracy: 0.4600
+Epoch 3/25
+74/74 [==============================] - 63s 847ms/step - loss: 1.4765 - accuracy: 0.4673 - val_loss: 1.3545 - val_accuracy: 0.4600
+Epoch 4/25
+74/74 [==============================] - 72s 966ms/step - loss: 1.3509 - accuracy: 0.5088 - val_loss: 1.1743 - val_accuracy: 0.5800
+Epoch 5/25
+74/74 [==============================] - 66s 890ms/step - loss: 1.2834 - accuracy: 0.5271 - val_loss: 1.2932 - val_accuracy: 0.5400
+Epoch 6/25
+74/74 [==============================] - 64s 861ms/step - loss: 1.1922 - accuracy: 0.5631 - val_loss: 1.2567 - val_accuracy: 0.5800
+Epoch 7/25
+74/74 [==============================] - 67s 905ms/step - loss: 1.1188 - accuracy: 0.6007 - val_loss: 1.1479 - val_accuracy: 0.6000
+Epoch 8/25
+74/74 [==============================] - 68s 916ms/step - loss: 1.0510 - accuracy: 0.6268 - val_loss: 1.0708 - val_accuracy: 0.6800
+Epoch 9/25
+74/74 [==============================] - 67s 898ms/step - loss: 0.9983 - accuracy: 0.6524 - val_loss: 1.2944 - val_accuracy: 0.5600
+Epoch 10/25
+74/74 [==============================] - 65s 880ms/step - loss: 0.9044 - accuracy: 0.6858 - val_loss: 1.2453 - val_accuracy: 0.6600
+Epoch 11/25
+74/74 [==============================] - 66s 892ms/step - loss: 0.8985 - accuracy: 0.6776 - val_loss: 1.1061 - val_accuracy: 0.5200
+Epoch 12/25
+74/74 [==============================] - 66s 886ms/step - loss: 0.7898 - accuracy: 0.7289 - val_loss: 0.9551 - val_accuracy: 0.6400
+Epoch 13/25
+74/74 [==============================] - 68s 908ms/step - loss: 0.7521 - accuracy: 0.7354 - val_loss: 1.1391 - val_accuracy: 0.6200
+Epoch 14/25
+74/74 [==============================] - 66s 893ms/step - loss: 0.6731 - accuracy: 0.7734 - val_loss: 1.2622 - val_accuracy: 0.6400
+Epoch 15/25
+74/74 [==============================] - 66s 884ms/step - loss: 0.6980 - accuracy: 0.7593 - val_loss: 1.0586 - val_accuracy: 0.6200
+Epoch 16/25
+74/74 [==============================] - 70s 939ms/step - loss: 0.6467 - accuracy: 0.7738 - val_loss: 1.3655 - val_accuracy: 0.5200
+Epoch 17/25
+74/74 [==============================] - 74s 999ms/step - loss: 0.6033 - accuracy: 0.7918 - val_loss: 1.0352 - val_accuracy: 0.6200
+Epoch 18/25
+74/74 [==============================] - 76s 1s/step - loss: 0.6083 - accuracy: 0.7956 - val_loss: 1.1934 - val_accuracy: 0.6200
+Epoch 19/25
+74/74 [==============================] - 73s 986ms/step - loss: 0.5801 - accuracy: 0.7986 - val_loss: 1.1922 - val_accuracy: 0.6600
+Epoch 20/25
+74/74 [==============================] - 74s 992ms/step - loss: 0.5584 - accuracy: 0.8110 - val_loss: 1.1270 - val_accuracy: 0.6200
+Epoch 21/25
+74/74 [==============================] - 72s 969ms/step - loss: 0.5042 - accuracy: 0.8226 - val_loss: 1.3034 - val_accuracy: 0.6000
+Epoch 22/25
+74/74 [==============================] - 71s 959ms/step - loss: 0.5094 - accuracy: 0.8234 - val_loss: 0.9526 - val_accuracy: 0.6600
+Epoch 23/25
+74/74 [==============================] - 72s 971ms/step - loss: 0.4815 - accuracy: 0.8388 - val_loss: 1.1638 - val_accuracy: 0.6400
+Epoch 24/25
+74/74 [==============================] - 71s 953ms/step - loss: 0.4997 - accuracy: 0.8311 - val_loss: 1.2077 - val_accuracy: 0.6200
+Epoch 25/25
+74/74 [==============================] - 70s 942ms/step - loss: 0.4432 - accuracy: 0.8431 - val_loss: 1.2046 - val_accuracy: 0.6400
+2023-05-24 18:46:52.935381: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+2/2 [==============================] - 1s 129ms/step - loss: 0.7995 - accuracy: 0.6800
+[0.7995240688323975, 0.6800000071525574]

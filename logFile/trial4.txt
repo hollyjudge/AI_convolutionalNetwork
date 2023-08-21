@@ -1,0 +1,32 @@
+Epoch 1/11
+2023-05-24 14:17:49.152109: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - ETA: 0s - loss: 2.7172 - accuracy: 0.2022
+2023-05-24 14:18:40.228421: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - 52s 685ms/step - loss: 2.7172 - accuracy: 0.2022 - val_loss: 1.6508 - val_accuracy: 0.3800
+Epoch 2/11
+74/74 [==============================] - 55s 739ms/step - loss: 1.7801 - accuracy: 0.3625 - val_loss: 1.5996 - val_accuracy: 0.3600
+Epoch 3/11
+74/74 [==============================] - 47s 628ms/step - loss: 1.6010 - accuracy: 0.4245 - val_loss: 1.7175 - val_accuracy: 0.3800
+Epoch 4/11
+74/74 [==============================] - 47s 631ms/step - loss: 1.4495 - accuracy: 0.4853 - val_loss: 1.5131 - val_accuracy: 0.3600
+Epoch 5/11
+74/74 [==============================] - 46s 617ms/step - loss: 1.3718 - accuracy: 0.5152 - val_loss: 1.4290 - val_accuracy: 0.5600
+Epoch 6/11
+74/74 [==============================] - 47s 632ms/step - loss: 1.2747 - accuracy: 0.5502 - val_loss: 1.3769 - val_accuracy: 0.5200
+Epoch 7/11
+74/74 [==============================] - 49s 663ms/step - loss: 1.1908 - accuracy: 0.5746 - val_loss: 1.3013 - val_accuracy: 0.4600
+Epoch 8/11
+74/74 [==============================] - 46s 613ms/step - loss: 1.1513 - accuracy: 0.6088 - val_loss: 1.4098 - val_accuracy: 0.4800
+Epoch 9/11
+74/74 [==============================] - 51s 685ms/step - loss: 1.0767 - accuracy: 0.6276 - val_loss: 1.1857 - val_accuracy: 0.5000
+Epoch 10/11
+74/74 [==============================] - 54s 721ms/step - loss: 1.0269 - accuracy: 0.6375 - val_loss: 1.3610 - val_accuracy: 0.5200
+Epoch 11/11
+74/74 [==============================] - 55s 732ms/step - loss: 0.9769 - accuracy: 0.6614 - val_loss: 1.2680 - val_accuracy: 0.5600
+
+2023-05-24 14:26:57.843029: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+2/2 [==============================] - 1s 214ms/step - loss: 1.0096 - accuracy: 0.6000
+[1.0095829963684082, 0.6000000238418579]

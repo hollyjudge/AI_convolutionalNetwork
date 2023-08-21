@@ -1,0 +1,50 @@
+Epoch 1/20
+2023-05-24 17:47:45.200750: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - ETA: 0s - loss: 2.1143 - accuracy: 0.1808
+2023-05-24 17:48:43.743158: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+74/74 [==============================] - 59s 790ms/step - loss: 2.1143 - accuracy: 0.1808 - val_loss: 1.6246 - val_accuracy: 0.2600
+Epoch 2/20
+74/74 [==============================] - 63s 844ms/step - loss: 1.6463 - accuracy: 0.3895 - val_loss: 1.3576 - val_accuracy: 0.5200
+Epoch 3/20
+74/74 [==============================] - 63s 854ms/step - loss: 1.4665 - accuracy: 0.4476 - val_loss: 1.4062 - val_accuracy: 0.5200
+Epoch 4/20
+74/74 [==============================] - 65s 873ms/step - loss: 1.3309 - accuracy: 0.5224 - val_loss: 1.3147 - val_accuracy: 0.5000
+Epoch 5/20
+74/74 [==============================] - 67s 902ms/step - loss: 1.2179 - accuracy: 0.5605 - val_loss: 1.1793 - val_accuracy: 0.4800
+Epoch 6/20
+74/74 [==============================] - 65s 877ms/step - loss: 1.1598 - accuracy: 0.5793 - val_loss: 1.3980 - val_accuracy: 0.5000
+Epoch 7/20
+74/74 [==============================] - 66s 895ms/step - loss: 1.0780 - accuracy: 0.6015 - val_loss: 1.1940 - val_accuracy: 0.5200
+Epoch 8/20
+74/74 [==============================] - 66s 890ms/step - loss: 0.9865 - accuracy: 0.6494 - val_loss: 1.3679 - val_accuracy: 0.5800
+Epoch 9/20
+74/74 [==============================] - 68s 922ms/step - loss: 0.9532 - accuracy: 0.6533 - val_loss: 1.2477 - val_accuracy: 0.4400
+Epoch 10/20
+74/74 [==============================] - 69s 939ms/step - loss: 0.8347 - accuracy: 0.7067 - val_loss: 1.2620 - val_accuracy: 0.4800
+Epoch 11/20
+74/74 [==============================] - 67s 903ms/step - loss: 0.7704 - accuracy: 0.7315 - val_loss: 1.2484 - val_accuracy: 0.4200
+Epoch 12/20
+74/74 [==============================] - 69s 931ms/step - loss: 0.7406 - accuracy: 0.7392 - val_loss: 1.2231 - val_accuracy: 0.5600
+Epoch 13/20
+74/74 [==============================] - 67s 910ms/step - loss: 0.7236 - accuracy: 0.7490 - val_loss: 1.1381 - val_accuracy: 0.5800
+Epoch 14/20
+74/74 [==============================] - 67s 899ms/step - loss: 0.7327 - accuracy: 0.7486 - val_loss: 1.1812 - val_accuracy: 0.5200
+Epoch 15/20
+74/74 [==============================] - 68s 913ms/step - loss: 0.6201 - accuracy: 0.7820 - val_loss: 1.2286 - val_accuracy: 0.5200
+Epoch 16/20
+74/74 [==============================] - 71s 956ms/step - loss: 0.6630 - accuracy: 0.7760 - val_loss: 0.9861 - val_accuracy: 0.5600
+Epoch 17/20
+74/74 [==============================] - 68s 930ms/step - loss: 0.5598 - accuracy: 0.8089 - val_loss: 1.3414 - val_accuracy: 0.5000
+Epoch 18/20
+74/74 [==============================] - 68s 921ms/step - loss: 0.5843 - accuracy: 0.7931 - val_loss: 1.0635 - val_accuracy: 0.5800
+Epoch 19/20
+74/74 [==============================] - 68s 917ms/step - loss: 0.5207 - accuracy: 0.8162 - val_loss: 1.1170 - val_accuracy: 0.5800
+Epoch 20/20
+74/74 [==============================] - 72s 972ms/step - loss: 0.4943 - accuracy: 0.8345 - val_loss: 1.1091 - val_accuracy: 0.6000
+
+2023-05-24 18:10:01.922545: I tensorflow/core/common_runtime/executor.cc:1210] [/device:CPU:0] (DEBUG INFO) Executor start aborting (this does not indicate an error and you can ignore this message): INVALID_ARGUMENT: You must feed a value for placeholder tensor 'Placeholder/_0' with dtype int32
+	 [[{{node Placeholder/_0}}]]
+2/2 [==============================] - 1s 134ms/step - loss: 0.6542 - accuracy: 0.7800
+[0.6541502475738525, 0.7799999713897705]
